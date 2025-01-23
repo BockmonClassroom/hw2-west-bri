@@ -60,8 +60,8 @@ for name, plant in plants:
 
 # box plot leaf length
 data = [leafLength]
-positions = [1]
-position = 2
+positions = [1] # position of box in graph
+position = 2 #initialize
 labels = ["all"]
 for name, plant in plants:
     data.append(plant.leafLength)
@@ -72,30 +72,27 @@ fig = plt.figure(count)
 plt.title("Leaf Length")
 print(positions)
 plt.boxplot(data, positions = positions, labels = labels)
-count =+ 1
-plt.show()
+count = count + 1
 
 # box plot leaf width
-data = [leafWidth]
-positions = [1]
+data_width = [leafWidth]
+positions_width = [1]
 position = 2
-labels = ["all"]
+labels_width = ["all"]
 for name, plant in plants:
-    data.append(plant.leafWidth)
-    positions.append(position)
+    data_width.append(plant.leafWidth)
+    positions_width.append(position)
     position = position + 1
-    labels.append(name)
+    labels_width.append(name)
 fig = plt.figure(count)
 plt.title("Leaf Width")
-print(positions)
-plt.boxplot(data, positions = positions, labels = labels)
-count =+ 1
-plt.show()
+plt.boxplot(data_width, positions = positions_width, labels = labels_width)
+count = count + 1
 
 #scatter plot
 plt.figure(count)
 count = count + 1
-names = []
+names = [] # for creating the legend
 for name, plant in plants:
     x = plant.leafLength
     y = plant.leafWidth
@@ -103,6 +100,6 @@ for name, plant in plants:
     plt.xlabel("Leaf Length")
     plt.ylabel("Leaf Width")
     plt.scatter(x,y)
-    names.append(name)
+    names.append(name) #get plant names for legend
 plt.legend(names)
 plt.show()
