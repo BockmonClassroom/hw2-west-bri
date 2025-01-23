@@ -1,0 +1,33 @@
+1. Explain your data collection process. 
+I used a clear plastic ruler and measured the leaves from stem to tip. I kept track of leaves I had measured and measured a random sampling from
+each plant.
+
+2. What instrument did you use to collect data with?
+A clear plastic ruler with 1/16" marks
+
+3. Argue the accuracy and precision of your instrument.
+The ruler is a tool built to measure linear distance. It measures inches and fractions of inches which are US customary units and matches my other linear
+measuring tools (other rulers/tape measures). The precision is 1/16th of a inch. The abnormal shape of the leaves and the admittedly inconsistent measuring
+technique I used make the 1/16" precision more than precise enough
+
+
+4. How many data points did you collect? Why? 
+I was able to get 79 total data points. I had 4 plants available (ok I had more, but they don't have leaves) and I just measured around the same amount of leaves
+from each plant. 
+
+
+5. Define the size of your data in terms of both N (full data set size) and n (each subset size).
+N: 79
+Aloe Vera: 18
+Corn Plant: 17
+Dwarf Umbrella: 24
+Parlor Palm: 20
+
+6. Explain any problems that you ran into during the data collection process.
+The first problem was figuring out where leaves began on the Aloe Vera and the Corn Plant.
+
+The second problem was figuring out what angle the ruler should be held at on the leaves. Some of the leaves weren't symmetrical, so determing the widest
+part was not precise.
+
+The third problem was some of the leaves on the Corn Plant had "dead ends" and I was not sure if those should count towards the length.
+I decided they did not.
