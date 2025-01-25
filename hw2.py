@@ -33,7 +33,7 @@ for name, plant in plants:
     plt.ylabel("Leaf Count")
     count = count + 1
 
-#plt.show()
+plt.show()
 
 #leaf width histogram
 
@@ -56,7 +56,7 @@ for name, plant in plants:
     plt.ylabel("Leaf Count")
     count = count + 1
 
-#plt.show()
+plt.show()
 
 # box plot leaf length
 data = [leafLength]
@@ -74,6 +74,8 @@ print(positions)
 plt.boxplot(data, positions = positions, labels = labels)
 count = count + 1
 
+plt.show()
+
 # box plot leaf width
 data_width = [leafWidth]
 positions_width = [1]
@@ -88,6 +90,8 @@ fig = plt.figure(count)
 plt.title("Leaf Width")
 plt.boxplot(data_width, positions = positions_width, labels = labels_width)
 count = count + 1
+
+plt.show()
 
 #scatter plot
 plt.figure(count)
